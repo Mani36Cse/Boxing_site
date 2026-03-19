@@ -3,7 +3,7 @@ AOS.init({ duration: 1000, once: true });
 
 const bag = document.getElementById('bag');
 if (bag && typeof gsap !== 'undefined') {
-    const punchAudio = new Audio('../punch.mp3');
+    const punchAudio = new Audio('Images/punch.mp3');
 
     function punchBag() {
         gsap.killTweensOf(bag);
